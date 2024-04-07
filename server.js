@@ -10,6 +10,12 @@ app.get('/', (req,res)=>{
 
     res.send("welcome home");
 })
+app.get('/about', (req,res)=>{
+    res.send("this is about")
+})
+app.get('/services', (req,res)=>{
+    res.send("welcome to services")
+})
 
 app.get('/getdetail', (req,res)=>{
     const details = [{
